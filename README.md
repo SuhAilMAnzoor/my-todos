@@ -50,15 +50,15 @@ intl (for date formatting)
 
 📂 Project Structure
 
-lib:
-  main.dart: "Entry point"
-  model:
-    todo.dart: "Todo model (id, task, isDone, createdOn, updatedOn)"
-  screens:
-    todos_screen.dart: "Main screen (add, edit, toggle, delete todos)"
-    completed_todos.dart: "Completed todos screen (group by date, delete)"
-  services:
-    database_services.dart: "SQLite database service (CRUD operations)"
+lib/
+├── main.dart # Entry point
+├── model/
+│ └── todo.dart # Todo model (id, task, isDone, createdOn, updatedOn)
+├── screens/
+│ ├── todos_screen.dart # Main screen (add, edit, toggle, delete todos)
+│ └── completed_todos.dart # Completed todos screen (group by date, delete)
+└── services/
+└── database_services.dart # SQLite database service (CRUD operations)
 
 
 
