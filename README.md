@@ -28,9 +28,9 @@ This app allows users to add, edit, delete, and mark tasks as complete, with com
 (Add your own screenshots here after running the app 🙂)
 
 screenshots/
- ├── home.png
- ├── add_task.png
- ├── completed.png
+├── home.png
+├── add_task.png
+├── completed.png
 
 
 Example placeholders:
@@ -50,24 +50,27 @@ intl (for date formatting)
 
 📂 Project Structure
 lib/
- ├── main.dart                # Entry point
- ├── model/
- │    └── todo.dart           # Todo model (id, task, isDone, createdOn, updatedOn)
- ├── screens/
- │    ├── todos_screen.dart   # Main screen (add, edit, toggle, delete todos)
- │    └── completed_todos.dart# Completed todos screen (group by date, delete)
- └── services/
-      └── database_services.dart # SQLite database service (CRUD operations)
+├── main.dart # Entry point
+├── model/
+│ └── todo.dart # Todo model (id, task, isDone, createdOn, updatedOn)
+├── screens/
+│ ├── todos_screen.dart # Main screen (add, edit, toggle, delete todos)
+│ └── completed_todos.dart # Completed todos screen (group by date, delete)
+└── services/
+└── database_services.dart # SQLite database service (CRUD operations)
 
 
-🚀 Getting Started
-Prerequisites
 
-Install Flutter
+---
 
-A connected device or emulator
+## 🚀 Getting Started
 
-Installation
+### Prerequisites
+- Install **Flutter**
+- A connected device or emulator
+
+### Installation
+```bash
 # Clone this repository
 git clone https://github.com/your-username/todo-app.git
 
@@ -79,6 +82,7 @@ flutter pub get
 
 # Run the app
 flutter run
+
 
 📦 Dependencies
 dependencies:
